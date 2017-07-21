@@ -1,0 +1,44 @@
+.cell {
+	height: 300px;
+	width: 300px
+	}
+
+.lr {
+	border-left: 1px solid black;
+	border-right: 1px solid black
+	}
+
+.tb {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black
+	}
+
+ .button {
+ 	text-align: center;
+	border: 1px solid black;
+	background-color: silver;
+	font-size: 24px;
+	cursor: pointer;
+	}
+
+.button:hover {
+	background-color: gray;
+	color: white
+	}
+
+.button:active {
+	background-color: lightgray;
+	transform: translateY(3px)
+	}
+
+h2 {
+	position: absolute;
+	left: 45%;
+	text-align: center
+	}
+
+table {
+	position: absolute;
+	left: 18.8%;
+	top: 50%
+	}
