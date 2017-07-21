@@ -1,6 +1,8 @@
 .cell {
 	height: 300px;
-	width: 300px
+	width: 300px;
+	font-size: 1000%;
+	text-align: center
 	}
 
 .lr {

@@ -4,7 +4,10 @@ $(document).ready(function() {
 
 	$('td').on('click', function(e){
 		turn_count++
-		if(turn_count % 2 == 0) {
+		if(turn_count == 9) {
+			alert("Game over! It's a draw!")
+			}
+		else if(turn_count % 2 == 0) {
 			$(this).text('X');
 			checkVictory('X')
 			}
@@ -73,9 +76,13 @@ $(document).ready(function() {
 					}
 				}
 			}
+
 	}
-	$('.button').on('click', function(e) {
+	reset = function() {
+		turn_count = 0
 		$('.cell').text('');
-	})
+	}
+	
+	$('.button').click(reset)
 
 })
