@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	var turn_count = 0
 
-	$('td').on('click', function(e){
+	$('td').one('click', function(e){
 		turn_count++
 		if(turn_count == 9) {
 			alert("Game over! It's a draw!")
